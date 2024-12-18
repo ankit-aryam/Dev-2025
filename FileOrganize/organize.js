@@ -12,8 +12,9 @@ let types = {
 function organize(srcPath){
 
     if(srcPath==undefined){
-        console.log("Enter correct path");
-        return;
+        // console.log("Enter correct path");
+        // return;
+        srcPath = process.cwd();
     }
     // 1. create directory
     let organizedFiles = path.join(srcPath, "Organized_Files");
