@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 let fs = require("fs");
 let helpFunc = require("./help");
 let organizeFunc = require("./organize");
@@ -6,6 +7,7 @@ let treeFunc = require("./tree")
 let input = process.argv.slice(2);
 let command = input[0];
 let path = input[1];
+// console.log(input);
 
 switch(command){
     case "organize" : organizeFunc.organize(path);

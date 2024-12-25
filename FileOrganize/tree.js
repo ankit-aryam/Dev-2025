@@ -3,8 +3,9 @@ let path=require("path");
 
 function tree(dirPath){
     if(dirPath==undefined){
-        console.log("Please enter a valid path");
-        return;
+        // console.log("Please enter a valid path");
+        // return;
+        dirPath = process.cwd();
     }
     let doesExist=fs.existsSync(dirPath); //it returns if the path exists
     if(doesExist==true){
