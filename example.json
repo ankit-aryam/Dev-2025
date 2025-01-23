@@ -1,0 +1,15 @@
+[
+  {
+    "name": "steve",
+    "last name": "arya",
+    "age": "25",
+    "address": { "city": "Ambala", "state": "Haryana" }
+  },
+  {
+    "name": "Ankit",
+    "last name": "arya",
+    "age": "25",
+    "address": { "city": "Ambala", "state": "Haryana" }
+  },
+  { "name": "thor", "last name": "mishra" }
+]
